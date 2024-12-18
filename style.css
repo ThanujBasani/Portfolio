@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url('file:///C:/Users/Karunya/Desktop/p/bg.jpeg');
+    background-image: url('bg.jpeg');
 
     background-size: cover;
     background-position: center;
