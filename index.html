@@ -1,0 +1,182 @@
+<!DOCTYPE html?
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href="https://www.linkedin.com/in/thanuj-reddy-844bb8298/" target="_blank">
+    <img src="C:\Users\Karunya\Desktop\p\images.png" class="logo" alt="Logo">
+</a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>  
+            <ul>
+            <i class="fas fa-bars" onclick="openmeny()"></i>
+         </nav>
+         <div class="header-text">
+             <p></p>
+             <h1>Hi, I'm <span>Thanuj Reddy</span><br>warangal From india</h1>
+         </div>
+     </div>
+ </div>
+ <!-------------about------------>
+ <div id="about">
+     <div class="container">   
+         <div class="row">
+             <div class="about-col-1">
+                 <img src="C:\Users\Karunya\Desktop\p\main.jpeg">
+             </div>
+             <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                 <p>As a dedicated third-year B. Tech student specializing in Cyber Security at SR University, I am passionate about exploring the evolving landscape of cybersecurity threats and so - lutions. My academic journey has equipped me with a strong foundation in computer science, complemented by hands-on experience in cyber threat detection, prevention, and incident response. I am particularly interested in innovative approaches to safeguarding digital environments, with a focus on protecting loT and OT/ICS systems from ransomware and other emerging threats</p>
+                 <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('experience')">Certifications</p>
+                     <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                         <li><span>Cyber Security</span><br>focus on protecting IoT</li>
+                         <li><span>Languages</span><br>Python/C languahe/Java/Linux</li>
+                         <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                     </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                     <ul>
+                         <li><span>Cisco</span><br>On Computer networking</li>
+                         <li><span>Hackerrank</span><br>On Design and Analysis Of Algrorithms</li> 
+                         <li><span>scaler</span><br>On Computer Security</li>
+                         <li><span>Coursera</span><br>On Operating System</li>
+                     </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2026</span><br>Bachelors of Technology in Computer Science In SR UNIVERSITY</li>
+                        <li><span>2022</span><br>Inter from Sr Junior Collage</li>
+                        <li><span>2020</span><br>Scholling from St.Anns school</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------services------------------>
+<div id="services"> 
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                 <i class="fas fa-code"></i>
+                <h2>Web Design</h2>            
+                <p>Web design involves creating visually appealing and functional websites with a focus on user experience, layout, and responsiveness. Services offered include custom website design, responsive layouts, UI/UX design, e-commerce solutions, SEO optimization, and website maintenance.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Cyber Security</h2>
+                <p>networks, and data from cyber threats, ensuring confidentiality, integrity, and availability. These services include threat detection, prevention, incident response, and vulnerability management.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>interface (UI) and user experience (UX) for mobile and web applications, ensuring they are intuitive, visually appealing, and functional. These services typically include wireframing, prototyping, and UI/UX design.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C:\Users\Karunya\Desktop\p\Ultimo_destructo_bot2016.webp">
+                <div class="layer">
+                    <h3>War Robots</h3>
+                    <p>War Robot</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\Karunya\Desktop\p\HRdiagram.webp">
+                <div class="layer">
+                    <h3>Star Type Classification</h3>
+                    <p>Star Type Classification Basic On AIML</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\Karunya\Desktop\p\1.webp">
+                <div class="layer">
+                    <h3>Online Booking App</h3>
+                    <p>Booking Travels System Using C</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fas fa-paper-plane"></i> thanujreddy12@gmail.com</p>
+                <p><i class="fab fa-phone-square-alt"></i> 9014849892</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/thanuj-reddy-844bb8298/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"><i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href=file:///C:/Users/Karunya/Downloads/Thanuj_resume.pdf download class="btn btn2">Download CV</a>
+          
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Thanuj Reddy<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+   }
+
+</script>
+
+<script>
+
+     var sidemenu = document.getElementById("sidemenu)";
+     
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+</script>
